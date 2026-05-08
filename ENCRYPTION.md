@@ -50,8 +50,9 @@ python scripts/encrypt_credentials.py encrypt --use-password
 # 解密并查看凭证
 python scripts/encrypt_credentials.py decrypt
 
-# 如果使用了密码
-python scripts/encrypt_credentials.py decrypt --password "your_password"
+# 如果使用了密码（交互式输入）
+python scripts/encrypt_credentials.py decrypt
+# 系统会提示输入密码
 ```
 
 ### 3. 检查加密状态
