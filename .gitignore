@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+
+# Encryption keys - 重要！不要提交密钥文件
+.secret_key
+.secret_key.salt
+*.key
+*.keyfile
+
+# Configuration files with sensitive data
+config.local.json
+config.encrypted.json
+image_mapping.local.json
+credentials.json
+
+# Logs and debugging
+*.log
+logs/
+debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test files
+test_*.py
+test_*.md
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Security scan results
+security_report.txt
+vulnerability_report.json
+.trae-html-share-packages/
+*.zip
+
+# Preview and test files
+preview/
+scripts/gen_preview.py
+scripts/gen_themes_standalone.py
